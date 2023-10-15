@@ -1,4 +1,5 @@
-# More information coming soon.
+# EG Scripts and Composes
+This repository contains scripts and docker-compose files that I use to manage my home server and cloud instances. I will slowly be adding more scripts and compose files as I create them.
 
 ## Docker Compose List
 - nginx-proxy-manager.yml
@@ -9,7 +10,15 @@ This compose file runs a containerized version of Nginx Proxy Manager. It is a w
 This compose file runs a containerized version of Uptime Kuma. It is a web interface that allows you to monitor your web services. You can do HTTP checks, port checks, and check uptime for containers.
 
 ## Dockerfile List
-
+- bun-js-dockerfile
+(Creates a containerized version of a bun project)
+This dockerfile creates a containerized version of a bun project (bun.js)
+- node-js-dockerfile
+(Creates a containerized version of a node project)
+This dockerfile creates a containerized version of a node project (node.js)
+- python-dockerfile
+(Creates a containerized version of a python project)
+This dockerfile creates a containerized version of a python project (python)
 
 ## Scripts List
 - docker-portainer.sh
