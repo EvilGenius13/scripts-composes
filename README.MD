@@ -21,6 +21,13 @@ This dockerfile creates a containerized version of a node project (node.js)
 This dockerfile creates a containerized version of a python project (python)
 
 ## Scripts List
+- docker.sh
+(Installs Docker and Docker-Compose)
+To use, run the following command in your terminal:
+```bash
+curl -fsSL https://raw.githubusercontent.com/EvilGenius13/scripts-composes/main/scripts/docker.sh | bash
+```
+
 - docker-portainer.sh
 (Installs Docker, Docker-Compose, and Portainer)
 To use, run the following command in your terminal:
